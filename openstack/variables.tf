@@ -1,17 +1,17 @@
 
-variable net1.name {
+variable net1-name {
          type = string
-         value = "NET1"
+         default = "NET1"
         }
-variable net2.name {
+variable net2-name {
          type = string
-         value = "NET1"
+         default = "NET2"
         }
 variable subnet-name-1 {
          type = string
-         value = "SUBNET1"
+         default = "SUBNET1"
 }
 variable subnet-name-2 {
          type = string
-         value = "SUBNET2"
+         default = "SUBNET2"
 }

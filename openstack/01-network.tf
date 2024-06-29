@@ -1,10 +1,10 @@
 resource "openstack_networking_network_v2" "NET1" {
-  name           = var.net1.name
+  name           = var.net1-name
   admin_state_up = "true"
 }
 resource "openstack_networking_network_v2" "NET2" {
   
-  name           = var.net2.name
+  name           = var.net2-name
   admin_state_up = "true"
 }
 
